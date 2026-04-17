@@ -3,258 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML5 Web App</title>
+    <title>Fotografía Digital</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
+    <!-- HEADER -->
     <header class="header">
-        <div class="logo">
-            <img src="img/html5-logo.jpg" alt="Logo HTML5">
-            <div>
-                <h1>FOTOGRAFIA DIGITAL</h1>
-                <p>SITIO WED HTML5</p>
-            </div>
-        </div>
+        <h1>FOTOGRAFÍA DIGITAL</h1>
 
         <nav class="nav">
             <a href="#inicio">Inicio</a>
             <a href="#que-es">¿Qué es?</a>
-            <a href="#Caracteristicas">Caracteristicas</a>
-            <a href="#Ejemplos">Ejemplos</a>
-            <a href="#semantica">Galeria</a>
-            <a href="#Opinion">Opinion</a>
-            <a href="#conclusion">Conclusión</a>
+            <a href="#caracteristicas">Características</a>
+            <a href="#ejemplos">Ejemplos</a>
+            <a href="#galeria">Galería</a>
         </nav>
     </header>
 
+    <!-- MAIN -->
     <main>
-        <section id="inicio" class="hero">
-            <div class="hero-texto">
-                <span class="badge">Tema de la práctica</span>
-                <h2>Aprendiendo HTML5</h2>
+
+        <!-- INICIO -->
+        <section id="inicio" class="seccion">
+            <article class="card">
+                <h2>Inicio</h2>
+                <img src="img/inicio.jpg" alt="Cámara fotográfica">
                 <p>
-                    Esta página está dedicada a explicar qué es HTML5, su estructura, sus etiquetas
-                    y su importancia en el desarrollo web. HTML5 es la versión más moderna del lenguaje HTML (HyperText Markup Language) y sirve principalmente para crear y estructurar páginas web. Es la base de casi todos los sitios que ves en internet.
+                    La fotografía digital es una forma moderna de capturar imágenes utilizando cámaras digitales.
+                    Hoy en día es muy importante porque permite guardar, editar y compartir fotos fácilmente
+                    desde cualquier dispositivo como celulares o computadoras.
                 </p>
-                <a href="#que-es" class="btn">Comenzar</a>
-            </div>
-            <div class="hero-imagen">
-                <!-- Aquí va la imagen principal -->
-            </div>
+            </article>
         </section>
 
+        <!-- QUE ES -->
         <section id="que-es" class="seccion">
             <article class="card">
-                <h2>¿QUE ES FOTOGRAFIA DIGITAL?</h2>
-                <img src="img/html5-logo.jpg" alt="Logo HTML5">
+                <h2>¿Qué es la fotografía digital?</h2>
+                <img src="img/quees.jpg" alt="Fotografía digital">
                 <p>
-                    HTML5 es la versión más reciente, el cual se utiliza para crear y estructurar el contenido de las páginas web. Este lenguaje permite organizar elementos como textos, imágenes, enlaces y otros recursos dentro de un sitio web.
-                    Sirve principalmente para construir la estructura de una página web y facilitar la incorporación de contenido multimedia como videos y audios sin necesidad de programas externos. Además, incluye nuevas etiquetas que ayudan a organizar mejor la información, como encabezados, secciones, menús de navegación y pies de página, lo que hace que el código sea más claro y ordenado.
-                    
-                    Es importante porque es la base de todas las páginas web modernas. Gracias a HTML5, los sitios pueden adaptarse a diferentes dispositivos como celulares, tabletas y computadoras. También mejora el rendimiento de las páginas, permite una mejor experiencia para el usuario y facilita el trabajo de los desarrolladores al hacer el código más entendible y eficiente.
+                    La fotografía digital es el proceso de capturar imágenes mediante sensores electrónicos
+                    en lugar de película tradicional. Estas imágenes se almacenan en formato digital, lo que
+                    permite editarlas, compartirlas y guardarlas sin perder calidad.
                 </p>
             </article>
         </section>
 
-        <section id="estructura" class="seccion">
+        <!-- CARACTERISTICAS -->
+        <section id="caracteristicas" class="seccion">
             <article class="card">
-                <h2>Estructura básica de HTML5</h2>
-                <img src="img/estructura.jpg" alt="Estructura HTML5">
-                <div class="codigo">
-                    &lt;!DOCTYPE html&gt;<br>
-                    &lt;html&gt;<br>
-                    &lt;head&gt;<br>
-                    &lt;title&gt; Mi página&lt;/title&gt;<br>
-                    &lt;/head&gt;<br>
-                    &lt;body&gt;<br>
-                    &lt;/body&gt;<br>
-                    &lt;/html&gt;<br>
-                </div>
+                <h2>Características</h2>
+                <img src="img/caracteristicas.jpg" alt="Características fotografía">
                 <p>
-                    !DOCTYPE html.
+                    La fotografía digital tiene varias características importantes:
+                </p>
+                <ul>
+                    <li>Permite ver la imagen inmediatamente</li>
+                    <li>Se puede editar fácilmente</li>
+                    <li>No requiere rollos o película</li>
+                    <li>Se puede compartir en redes sociales</li>
+                    <li>Alta calidad de imagen</li>
+                </ul>
+            </article>
+        </section>
 
-.Es una declaración que se coloca al inicio del documento.
-.Su función es indicarle al navegador que el archivo está escrito en HTML5, para que lo interprete correctamente.
-.No es una etiqueta como tal, sino una instrucción.
+        <!-- EJEMPLOS -->
+        <section id="ejemplos" class="seccion">
+            <article class="card">
+                <h2>Ejemplos</h2>
+                <img src="img/ejemplos.jpg" alt="Tipos de fotografía">
+                <p>
+                    Algunos ejemplos de fotografía digital son:
+                </p>
+                <ul>
+                    <li>Fotografía de retrato</li>
+                    <li>Fotografía de paisaje</li>
+                    <li>Fotografía de productos</li>
+                    <li>Fotografía artística</li>
+                </ul>
+            </article>
+        </section>
 
-html.
-
-.Es la etiqueta raíz del documento.
-.Dentro de ella se encuentra todo el contenido de la página web.
-.Indica el inicio y el final del código HTML.
-
-head.
-
-Contiene información sobre la página que no se muestra directamente al usuario, como:
-
-.El título de la página title
-.Enlaces a archivos CSS
-.Metadatos (autor, codificación, descripción, etc.)
-
-Sirve para configurar y dar información al navegador sobre el sitio.
-
- body.
-
-Aquí va todo el contenido que sí se muestra en la página web, como:
-
-.Textos
-.Imágenes
-.Videos
-.Botones
-.Enlaces
+        <!-- GALERIA -->
+        <section id="galeria" class="seccion">
+            <article class="card">
+                <h2>Galería</h2>
+                <img src="img/galeria.jpg" alt="Galería de fotos">
+                <p>
+                    En esta sección se muestran ejemplos de imágenes tomadas con fotografía digital.
+                    Estas pueden variar en estilo, iluminación y composición.
                 </p>
             </article>
         </section>
 
-        <section id="etiquetas" class="seccion">
-            <article class="card">
-                <h2> SUS CARACTERISTICAS</h2>
-                <img src="img/etiquetas.png" alt="Etiquetas HTML5">
-                <div class="grid">
-                    <div class="mini-card">
-                        <h3>h1 a h6</h3>
-                        <p>Son encabezados o títulos.
-                            h1 es el más importante (más grande) y h6 el menos importante.</p>
-                    </div>
-                    <div class="mini-card">
-                        <h3>p</h3>
-                        <p>Se usa para escribir párrafos de texto..</p>
-                    </div>
-                    <div class="mini-card">
-                        <h3>img</h3>
-                        <p>Se usa para insertar imágenes..</p>
-                    </div>
-                    <div class="mini-card">
-                        <h3>a</h3>
-                        <p>Sirve para crear enlaces a otras páginas o sitios web.</p>
-                    </div>
-                    <div class="mini-card">
-                        <h3>button</h3>
-                        <p>Sirve para que el usuario realice acciones, como:
-
-                            Enviar un formulario
-                            Ejecutar funciones con JavaScript
-                            Hacer clic para realizar alguna acción</p>
-                    </div>
-                    <div class="mini-card">
-                        <h3>ul / ol / li</h3>
-                        <p>Sirven para crear listas:
-
-                            ul lista desordenada (viñetas)
-                            ol lista ordenada (números)
-                            li cada elemento de la lista.</p>
-                    </div>
-                </div>
-            </article>
-        </section>
-
-        <section id="semantica" class="seccion">
-            <article class="card">
-                <h2>EJEMPLOS DE FOTOGRAFIA DIGITAL</h2>
-                <img src="img/semantica.png" alt="HTML5 semántico">
-                <div class="grid">
-                    <div class="mini-card">
-                        <h3>header</h3>
-                        <p>Es el encabezado de la página o de una sección.
-                            Puede contener el logo, título o menú.</p>
-                    </div>
-                    <div class="mini-card">
-                        <h3>nav</h3>
-                        <p>Se usa para el menú de navegación.
-                            Aquí van los enlaces principales del sitio.</p>
-                    </div>
-                    <div class="mini-card">
-                        <h3>main</h3>
-                        <p>Contiene el contenido principal de la página.
-                            Solo debe haber uno por página.</p>
-                    </div>
-                    <div class="mini-card">
-                        <h3>section</h3>
-                        <p>Sirve para dividir el contenido en secciones.
-                            Cada sección trata un tema diferente.</p>
-                    </div>
-                    <div class="mini-card">
-                        <h3>article</h3>
-                        <p>Es contenido independiente, como:
-
-                            Noticias
-                            Publicaciones
-                            Blogs
-                            
-                            Se puede entender por sí solo.</p>
-                    </div>
-                    <div class="mini-card">
-                        <h3>footer</h3>
-                        <p>Es el pie de página.
-                            Contiene información como:
-                            
-                            Derechos de autor
-                            Contacto
-                            Redes sociales</p>
-                    </div>
-                </div>
-            </article>
-        </section>
-
-        <section id="formularios" class="seccion">
-            <article class="card">
-                <h2>GALERIA</h2>
-                <img src="img/formulario.png" alt="Formularios HTML5">
-                <p>
-                    ¿Qué son los formularios en HTML?
-
-                    Los formularios son secciones de una página web que permiten a los usuarios ingresar y enviar información.
-                    Se usan, por ejemplo, para:
-                    Registrarse
-                    Iniciar sesión
-                    Enviar mensajes
-                    Llenar encuestas
-                    
-                    Etiquetas principales
-                  form → Contiene todo el formulario
-                  label → Texto que describe un campo
-                  input → Campo para escribir datos
-                  textarea → Para textos largos
-                  select → Lista de opciones
-                  button → Botón para enviar o hacer acciones
-                </p>
-
-                <form class="demo-form">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" placeholder="Ejemplo">
-
-                    <label for="correo">Correo</label>
-                    <input type="email" id="correo" placeholder="ejemplo@email.com">
-
-                    <label for="comentario">Comentario</label>
-                    <textarea id="comentario" rows="4" placeholder="Escribe aquí..."></textarea>
-
-                    <button type="button">Enviar</button>
-            
-
-                    </div>
-                </div>
-            </article>
-        </section>
-
-        <section id="conclusion" class="seccion">
-            <article class="card">
-                <h2>Conclusión</h2>
-                <p>
-                    HTML5 es muy importante en el desarrollo web porque permite crear páginas más completas, organizadas y modernas. Gracias a sus etiquetas semánticas, es más fácil estructurar el contenido y hacerlo entendible tanto para las personas como para los navegadores. Además, facilita la integración de elementos como imágenes, audio y video sin necesidad de herramientas externas, lo que hace el desarrollo más sencillo y eficiente. En conclusión, HTML5 es una base fundamental para crear sitios web funcionales, accesibles y bien diseñados en la actualidad.
-                
-                </p>
-                <p><strong>Alumno:</strong> ALDO IMANOL FELICIANO CAMACHO</p>
-                <p><strong>Materia:</strong> Desarrollo de Aplicaciones Móviles</p>
-            </article>
-        </section>
     </main>
 
+    <!-- FOOTER -->
     <footer class="footer">
-        <p>Práctica HTML5 Submódulo 1</p>
+        <p>Alumno: Aldo Imanol Feliciano Camacho</p>
+        <p>Materia: Desarrollo de Aplicaciones Móviles</p>
     </footer>
 
-    <script src="js/app.js"></script>
 </body>
 </html>
